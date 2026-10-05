@@ -3,7 +3,7 @@
 #### Technical Skills: Python, SQL, React, ML, AI, JavaScript
 
 ## Education
-- B.S., Computer Engineer | University of Saint Louis-Tuguegarao (_August 2022 - June 2025_)
+- B.S., Computer Engineer || University of Saint Louis-Tuguegarao (_August 2022 - June 2025_)
 
 ## Work Experience
 **Intern (Mobile App and Product Data), Hytec Power Inc. (_May 2025 – July 2025_)**
