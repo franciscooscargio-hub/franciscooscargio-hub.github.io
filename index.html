@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oscar Gio A. Francisco | Mobile App Developer | Software Developer</title>
+  <meta name="description"
+    content="Computer Engineering graduate building mobile apps and applying machine learning to real-world problems.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=Source+Sans+3:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a class="logo" href="#home">Oscar Gio A. Francisco</a>
+      <ul class="nav-menu">
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="content">
+        <h1>Hi, I'm <span class="stroke-text">Oscar Gio</span></h1>
+        <p class="role">Mobile Application Developer and Software Developer</p>
+        <p>Computer Engineering graduate who builds mobile apps and applies machine learning to real-world problems.
+          Looking for a junior mobile or ML engineering role.</p>
+        <div class="actions">
+          <a href="#contact" class="btn">Contact me</a>
+          <a href="#projects" class="btn ghost">See projects</a>
+        </div>
+      </div>
+      <div class="visual" aria-hidden="true">
+        <div class="frame f1"></div>
+        <div class="frame f2"></div>
+        <!-- Add your photo as images/profile.jpg (under 300 KB) -->
+        <img src="images/profile.jpg" alt="" onerror="this.remove()">
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="header">
+        <h2>Projects</h2>
+        <p>Apps and devices I built, from on-device machine learning to Arduino hardware.</p>
+      </div>
+      <div class="projects-list">
+
+        <article class="project">
+          <div class="thumb"><span>AgroLens</span><img src="images/agrolens.jpg" alt="AgroLens app screenshot"
+              onerror="this.remove()"></div>
+          <h3>AgroLens</h3>
+          <p class="tech">Android, MobileNetV2</p>
+          <p>An Android app that identifies rice and corn pests offline, so it works in the field without internet.
+            Trained on 3,692 images across 11 pest categories.</p>
+          <p class="stat"><b>84.57%</b> accuracy on 473 test images, <b>86.84%</b> at a 70% confidence threshold.</p>
+          <a href="#" class="view-more-btn">View project</a>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><span>H2O Potability</span><img src="images/h2o.jpg" alt="H2O Potability device"
+              onerror="this.remove()"></div>
+          <h3>H2O Potability</h3>
+          <p class="tech">Arduino, sensors</p>
+          <p>A portable device that measures the pH and turbidity of household water and sends SMS notifications.</p>
+          <p class="stat"><b>95.4%</b> accuracy across 40 test samples.</p>
+          <a href="#" class="view-more-btn">View project</a>
+        </article>
+
+        <article class="project">
+          <div class="thumb"><span>Club Management</span><img src="images/club.jpg"
+              alt="Club Management System screenshot" onerror="this.remove()"></div>
+          <h3>Club Management System</h3>
+          <p class="tech">C#, object-oriented design</p>
+          <p>Built with one partner: a program that collects and manages club member information and records using OOP
+            principles.</p>
+          <a href="#" class="view-more-btn">View project</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="header">
+        <h2>Experience and education</h2>
+      </div>
+      <div class="timeline">
+        <article class="entry wide">
+          <h3>Intern, Mobile App and Product Data</h3>
+          <p class="tech">Hytec Power Inc. | May 2025 to July 2025</p>
+          <ul>
+            <li>Designed the UI in Figma.</li>
+            <li>Built the front end of the company's mobile app in React Native, delivering 4 sections: company profile,
+              services, a marketplace-style product catalog, and partner companies.</li>
+            <li>Gathered requirements in regular meetings with the company president and employees, and turned them into
+              app features and screens.</li>
+            <li>Worked with interns from another school to deliver the app within the 3-month internship.</li>
+            <li>Verified 120 to 150 product listings against a company database, checking 4 fields: description, ID,
+              company, and country of origin.</li>
+          </ul>
+        </article>
+        <article class="entry">
+          <h3>B.S. in Computer Engineering</h3>
+          <p class="tech">University of Saint Louis-Tuguegarao | August 2022 to June 2025</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="header">
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-list">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>JavaScript</li>
+            <li>C#</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Mobile and web</h3>
+          <ul>
+            <li>React Native</li>
+            <li>React</li>
+            <li>Android</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Machine learning</h3>
+          <ul>
+            <li>MobileNetV2</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools and hardware</h3>
+          <ul>
+            <li>Figma</li>
+            <li>Arduino</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-card">
+        <h2>Let's talk</h2>
+        <p>I'm open to junior mobile and ML engineering roles. The fastest way to reach me is email.</p>
+        <div class="actions">
+          <a class="btn" href="mailto:franciscooscargio@gmail.com">franciscooscargio@gmail.com</a>
+          <a class="btn ghost" href="https://github.com/franciscooscargio-hub">GitHub</a>
+          <a class="btn ghost" href="https://linkedin.com/in/oscar-francisco-043bb4307">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Oscar Gio A. Francisco</p>
+  </footer>
+
+</body>
+
+</html>
