@@ -1,4 +1,4 @@
-# Mobile Application Developer · Software Developer · Tech Support
+# Mobile Application Developer · Software Developer
 
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
