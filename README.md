@@ -1,5 +1,5 @@
 # Mobile Application Developer · Software Developer
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Technical Skills: Python, SQL, React, ML, AI, JavaScript
 
 ## titeng baluktot
